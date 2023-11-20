@@ -2,12 +2,12 @@
 C
  By: Julien Barbier
  Weight: 1
- Ongoing second chance project - started Oct 27, 2023 6:00 AM, must end by Nov 2, 2023 6:00 AM
+ Project over - took place from Oct 27, 2023 6:00 AM to Oct 28, 2023 6:00 AM
  An auto review will be launched at the deadline
 In a nutshell…
-Auto QA review: 0.0/24 mandatory
-Altogether:  0.0%
-Mandatory: 0.0%
+Auto QA review: 2.6/24 mandatory
+Altogether:  10.83%
+Mandatory: 10.83%
 Optional: no optional tasks
 Concepts
 For this project, we expect you to look at this concept:
@@ -66,7 +66,7 @@ Great! You've completed the quiz successfully! Keep going! (Show quiz)
 Tasks
 0. A library is not a luxury but one of the necessities of life
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
+Score: 5.91% (Checks completed: 9.09%)
 Create the static library libmy.a containing all the functions listed below:
 
 int _putchar(char c);
@@ -194,10 +194,10 @@ Repo:
 GitHub repository: alx-low_level_programming
 Directory: 0x09-static_libraries
 File: libmy.a, main.h
-    
+     
 1. Without libraries what have we? We have no past and no future
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
+Score: 65.0% (Checks completed: 100.0%)
 Create a script called create_static_lib.sh that creates a static library called liball.a from all the .c files that are in the current directory.
 
 julien@ubuntu:~/0x09. Static Librairies$ ls *.c
