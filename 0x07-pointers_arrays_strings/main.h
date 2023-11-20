@@ -1,19 +1,15 @@
-#include "main.h"
+#ifndef FILE_MAIN
+#define FILE_MAIN
 
-/**
- * print_chessboard - prints the chessboard
- * @a: two dimension array to print
- */
-void print_chessboard(char (*a)[8])
-{
-	int i, j;
+int _putchar(char c);
+char *_memset(char *s, char b, unsigned int n);
+char *_memcpy(char *dest, char *src, unsigned int n);
+char *_strchr(char *s, char c);
+unsigned int _strspn(char *s, char *accept);
+char *_strpbrk(char *s, char *accept);
+char *_strstr(char *haystack, char *needle);
+void print_chessboard(char (*a)[8]);
+void print_diagsums(int *a, int size);
+void set_string(char **s, char *to);
 
-	for (i = 0; i < 8; i++)
-	{
-		for (j = 0; j < 8; j++)
-		{
-			_putchar(a[i][j]);
-		}
-		_putchar('\n');
-	}
-}
+#endif
