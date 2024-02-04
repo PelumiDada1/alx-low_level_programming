@@ -1,6 +1,6 @@
 /*
  * File: 1-djb2.c
- * Auth:iPelumi DadA 
+ * Auth: Pelumi Dada
  */
 
 #include "hash_tables.h"
